@@ -23,12 +23,12 @@ const Input = ({label, color = 'violet', labelHidden = false, className, ...rest
     })
 
     const labelClasses = getClasses({
-        'block text-xs font-medium dark:text-slate-100 text-slate-900': true,
+        'block text-xs font-medium dark:text-slate-200 text-slate-800': true,
         'sr-only': labelHidden
     })
 
     const inputClasses = getClasses({
-        'block w-full border-0 p-0 text-gray-900 dark:placeholder-gray-300 dark:placeholder-gray-500 focus:ring-0 sm:text-sm bg-transparent focus:outline-none dark:text-slate-100 text-slate-900': true
+        'block w-full border-0 p-0 text-gray-900 dark:placeholder-gray-300 dark:placeholder-gray-500 focus:ring-0 sm:text-base bg-transparent focus:outline-none dark:text-slate-100 text-slate-900': true
     })
 
     return (
